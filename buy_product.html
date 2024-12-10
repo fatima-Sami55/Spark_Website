@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show Product Page</title>
+  <link rel="stylesheet" href="buy_product.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+<div class="product-container">
+  <div class="product-image-box">
+    <img class="product-image" src="https://images.unsplash.com/photo-1582385760710-4300982782c1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2hvY2xhdGV8ZW58MHwwfDB8fHww" alt="Product Image">
+  </div>
+  
+  <div class="product-info">
+    <div class="product-price">$2.99</div>
+    
+    <div class="action-buttons">
+      <button class="addToCart" onclick="addToCart()">Add to Cart</button>
+      <button class="addToWishlist" onclick="addToWishlist()">Add to Wishlist</button>
+    </div>
+  </div>
+</div>
+
+<div class="description">
+  <h2>Choclate Cookies</h2>
+  <p>Indulge in the perfect harmony of rich cocoa and buttery bliss with our chocolate cookies. A delightful treat crafted to satisfy your sweet cravings in every decadent bite.</p>
+</div>
+
+<div class="rating-graph">
+  <span class="heading">User Rating</span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.1 average based on 254 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="recommended-products head">
+<h2 > Recommended Products</h2>
+</div>
+
+
+<div class="recommended-products">
+
+
+  <div class="product-card">
+    <img src="https://plus.unsplash.com/premium_photo-1666702222560-ee56d8db4c0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D" alt="Recommended Product 1">
+    <div class="product-details">
+      <h3>Choclate Layer Cake</h3>
+      <div class="product-price">$5.59</div>
+      <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+    </div>
+    </div>
+
+      <div class="product-card">
+    <img src="https://plus.unsplash.com/premium_photo-1671980819443-e8bbeec85840?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D" alt="Recommended Product 2">
+    <div class="product-details">
+      <h3>Icecream Cone</h3>
+      <div class="product-price">$8.99</div>
+      <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+    </div>
+  </div>
+
+  </div>
+
+
+  <div class="recommended-products">
+
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVzc2VydHxlbnwwfHwwfHx8MA%3D%3D" alt="Recommended Product 1">
+      <div class="product-details">
+        <h3>sweet dougs with fruit topings</h3>
+        <div class="product-price">$4.99</div>
+        <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+      </div>
+      </div>
+  
+        <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1541599188778-cdc73298e8fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRlc3NlcnR8ZW58MHx8MHx8fDA%3D" alt="Recommended Product 2">
+      <div class="product-details">
+        <h3>Waffels</h3>
+        <div class="product-price">$5.99</div>
+        <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+  
+    </div>
+
+    <div class="recommended-products">
+
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRlc3NlcnR8ZW58MHx8MHx8fDA%3D" alt="Recommended Product 1">
+        <div class="product-details">
+          <h3>Choclate Brownie</h3>
+          <div class="product-price">$1.99</div>
+          <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+        </div>
+        </div>
+    
+          <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1558326567-98ae2405596b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRlc3NlcnR8ZW58MHx8MHx8fDA%3D" alt="Recommended Product 2">
+        <div class="product-details">
+          <h3>Macrones</h3>
+          <div class="product-price">$8.99</div>
+          <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+        </div>
+      </div>
+    
+      </div>
+
+      <div style="height: 70px;">
+        <a class="foot_link" href="index.html">Back to Home Page</a>
+      </div>
+
+</div>
+
+<script>
+  function addToCart() {
+    alert('Product added to cart!');
+
+  }
+
+  function addToWishlist() {
+    alert('Product added to wishlist!');
+  
+  }
+</script>
+
+</body>
+</html>
